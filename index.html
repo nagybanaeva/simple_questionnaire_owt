@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang="hu">    
+  <head> 
+    <meta charset="utf-8"> 
+    <title>Egyszerű kérdőív</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>    
+  <body>        
+    <header>  
+      <h1>Kérdőív</h1>  
+      <h2>Elalvási szokásokról</h2> 
+    </header>   
+    <aside> 
+      <img src="../img/adult-alarm-alarm-clock-1028741.jpg" alt="clock">
+      <img src="../img/alone-bed-bedroom-271897.jpg" alt="sleep_in_the_bed">
+      <img src="img/book-girl-indoors-1294284.jpg" alt="sleep_on_the_table">
+    </aside> 
+    <article> 
+      <section>
+        <form>
+          <h3>Személyes adatok</h3>
+          <div class="bemutatkozas">
+            <span>Vezetéknév:</span> 
+            <br>          
+            <input type="text" name="vezeteknev"><br> 
+            <span>Keresztnév:</span> 
+            <br>          
+            <input type="text" name="keresztnev"><br>
+          </div>
+          <div class="nem">
+            <span>Az Ön neme:</span> 
+            <br> 
+            <select name="valaszolo_neme">
+              <option value="no">Nő</option>
+              <option value="ferfi">Férfi</option>
+            </select>
+          </div>
+          <div class="mail">
+            <span>Az Ön e-mail címe:</span>
+            <br>         
+            <input type="text" name="e-mail cím">
+          </div>
+          <h3>Kérdések</h3>
+          <div class="kerdes">
+            <h4>Szokott enni az esti lefekvés előtti 2-3 órában?</h4>
+            <input type="radio" name="gender" value="male" checked>Igen<br>
+            <input type="radio" name="gender" value="female">Nem<br>
+            <input type="radio" name="gender" value="other">Néha
+          </div>
+          <div class="kerdes">
+            <h4>Szokott televíziót nézni, vagy a mobiltelefonján böngészni az esti lefekvés előtt közvetlenül?</h4>
+            <input type="radio" name="gender" value="male" checked>Igen<br>
+            <input type="radio" name="gender" value="female">Nem<br>
+            <input type="radio" name="gender" value="other">Néha
+          </div>
+          <div class="kerdes">
+            <h4>Szokott könyvet olvasni az esti lefekvés előtt közvetlenül?</h4>
+            <input type="radio" name="gender" value="male" checked>Igen<br>
+            <input type="radio" name="gender" value="female">Nem<br>
+            <input type="radio" name="gender" value="other">Néha
+          </div>
+          <div class="kerdes">
+            <h4>Szokott zuhanyozni, vagy meleg fürdőt venni az esti lefekvés előtt közvetlenül?</h4>
+            <input type="radio" name="gender" value="male" checked>Igen<br>
+            <input type="radio" name="gender" value="female">Nem<br>
+            <input type="radio" name="gender" value="other">Néha
+          </div>
+          <input type="submit" value="Elküldés">
+        </form>
+      </section>  
+    </article> 
+    <footer> © Fontos Kérdések </footer>
+  </body> 
+</html> 
